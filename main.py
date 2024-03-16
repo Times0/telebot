@@ -1,3 +1,4 @@
+import time
 from pprint import pprint
 
 import requests
@@ -30,4 +31,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
+        time.sleep(50)
